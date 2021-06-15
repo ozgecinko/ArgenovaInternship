@@ -1,0 +1,200 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.main{
+    margin:0;
+    padding:0;
+}
+
+.container-fluid{
+    background: white;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+#contact-box{
+    background: linear-gradient(135deg, #2014A6, #7AA7FB);
+    width: 350px auto;
+    height: 450px auto;
+    padding: 15px;
+}
+
+.material-icons {
+    font-size: 150x; 
+    color: darkblue;
+}
+
+.info-icon {
+    background: white;
+    border-radius: 150px;
+}
+
+.title, .info-text, a{
+    color:white;
+}
+
+.contact{
+    margin: 15px;
+    padding: 0;
+}
+
+.contact-form p{
+    color:blue;
+}
+
+.contact-form h2{
+    color:black;
+}
+
+#message{
+    background-color:#f5f5f5;
+    padding: 25px 30px;
+    margin: 15px 15px;
+}
+
+#phone, #name, #surname, #email, #password{
+    background-color:#f5f5f5;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+
+.form-check-label{
+    color:gray;
+}
+
+.btn{
+    justify-content: center;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2014A6 0%, #7AA7FB  51%, #2014A6  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   width: 150px;
+   height: 50px;;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    overflow:hidden;
+ }
+
+ .header{
+    color: white;
+    align-items: center;
+    height: 120px;
+    position: relative;
+    overflow:hidden;
+ }
+
+ .header .topbar{
+    margin: 10px;
+    padding: 15px;
+    overflow: hidden;
+    vertical-align: middle;
+ }
+
+ .header .topbar .logo{
+    height: auto;
+    float: left;
+ }
+
+ .header .topbar .social{
+    overflow:hidden;
+    float: right;
+ }
+
+ .header .topbar .social ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ .header .topbar .social ul li{
+    display: inline-block;
+    border-right: 1px solid #eee;
+ }
+
+ .header .topbar .social ul li .socialtitle{
+     color:black;
+     font-size: 15px;
+     align-items: center;
+ }
+
+ .header .topbar .social ul li p{
+    margin-right: 14px;
+    color: darkgray;
+    text-align: center;
+ }
+
+
+ .navbar
+ {
+    height: 65px;
+    position: relative;
+    background-image: linear-gradient(90deg, #03228f 10%, #0e73e4 100%);
+ }
+ 
+ .navbar .menu{
+    list-style-type: none;
+ }
+
+ .navbar .menu ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+
+.navbar .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+ .navbar .menu li a:hover {
+    color: gray;
+  }
+
+
+ .navbar .menu li {
+    float: left;
+    margin-left: 15px;
+  }
+
+ .navbar .social li{
+    display: inline-block;
+    margin-right: 14px;
+    padding: 15px;
+  }
