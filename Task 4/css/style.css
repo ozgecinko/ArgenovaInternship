@@ -20,6 +20,8 @@ div {
 img {
     max-width: 100%;
     height: auto;
+    vertical-align: middle;
+    border-style: none;
 }
 
 ul {
@@ -29,19 +31,15 @@ ul {
 }
 
 a{
+    color:#0a0a0a;
     text-decoration: none !important;
     outline: none !important;
 }
 
-li{
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Livvic', sans-serif;
-    color: #101010;}
+    color: black;}
 
 .container-fluid{
     background: white;
@@ -69,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 150px;
 }
 
-.title, .info-text, a{
+.title, .info-text{
     color:white;
 }
 
@@ -129,9 +127,7 @@ h1, h2, h3, h4, h5, h6 {
  }
  
  .row{
-    display:flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    vertical-align: middle;
     margin-right: -15px;
     margin-left: -15px;
     overflow:hidden;
@@ -139,98 +135,93 @@ h1, h2, h3, h4, h5, h6 {
 
  .header{
     color: white;
+    justify-content: center;
     align-items: center;
-    height: 120px;
+    height: fit-content;
     position: relative;
     overflow:hidden;
  }
 
  .header .topbar{
-    margin: 10px;
-    padding: 15px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     vertical-align: middle;
  }
 
  .header .topbar .logo{
-    height: auto;
+    padding: 25px;
     float: left;
+    height: 65px;
+    line-height: 62px;
  }
 
- .header .topbar .social{
+
+ .header .topbar .topbar-contact .contact-list {
     float: right;
- }
+    text-align: left;
+    margin-bottom: 0;
+}
 
- .header .topbar .social ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
- }
- .header .topbar .social ul li{
-    display: inline-block;
+ .header .topbar .topbar-contact .contact-desc {
+    float: left;
+    text-align: left;
+    display:inline;
+    color: #0a0a0a;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding: 25px;
     border-right: 1px solid #eee;
- }
+}
 
- .header .topbar .social ul li .socialtitle{
-     color:black;
-     font-size: 15px;
-     align-items: center;
- }
+.header .topbar .topbar-contact .contact-desc-without-border{
+    float: left;
+    text-align: left;
+    display:inline;
+    color: #0a0a0a;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 25px;
+    margin-bottom: 0;
+}
 
- .header .topbar .social ul li p{
-    margin-right: 14px;
-    color: darkgray;
-    text-align: center;
- }
+
+.header .topbar .topbar-contact .contact-title{
+    color: #0a0a0a;
+    font-size: 15px;
+    font-weight: 700;
+}
 
  .navbar
  {
-    height: 65px;
-    position: relative;
     background: linear-gradient(90deg, #03228f 10%, #0e73e4 100%);
-    overflow:hidden;
- }
- 
- .navbar .menu{
-    list-style-type: none;
-    overflow:hidden;
- }
-
- .navbar .menu ul{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
- }
-
-
-.navbar .menu li a {
-    display: block;
-    color: white;
     text-align: center;
-    margin: 0px 10px 0px 10px;
-    padding: 15px;
-    text-decoration: none;
+    justify-content: space-between;
+    line-height: 65px;
+    height: 75px;
     position: relative;
-  }
-  
- .navbar .menu li a:hover {
-    color: gray;
-  }
-
-
- .navbar .menu li {
     overflow:hidden;
-    float: left;
-    margin-left: 15px;
-  }
+    padding-left: 100px;
+    padding-right: 100px;
+ }
 
- .navbar .social li{
-    overflow:hidden;
-    display: inline-block;
-    margin-right: 14px;
-    padding: 15px;
-  }
+ .navbar-nav .nav-item-with-border{
+    border-right: 1px solid #eee;
+ }
+
+ .navbar-nav > li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+ .navbar-nav > li > a{
+    color: white;
+ }
+
+ .navbar-nav > li > a:hover {
+    color: lightgray;
+ }
 
   .map{
     margin: 0;
@@ -432,10 +423,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .widget-area .search-widget {
     background: #fff;
-    padding: 40px 30px 40px;
+    padding: 40px;
     box-shadow: 0 6px 25px rgb(0 0 0 / 7%);
     border-radius: 10px;
     margin-bottom: 70px;
+}
+
+.widget-area .search-widget .search-wrap{
+    border: 1px solid #ddd;
+    color: #444444;
+    padding: 12px 17px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
 }
 
 .widget-area .recent-posts {
