@@ -6,3 +6,4 @@ This repository includes my Argenova internship tasks.
 * [Task 4](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%204): Blog Page
 * [Task 5](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%205): Blog Details Page
 * [Task 6](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%206): Form Validation
+* [Task 7](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%206): Sweet Alert
