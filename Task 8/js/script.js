@@ -1,17 +1,15 @@
-function validate(){
-    var name = document.getElementById("name").value;
-    var surname = document.getElementById("surname").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    var password = document.getElementById("password").value;
-    var genders = document.getElementsByName('gender');
-    var error_message = document.getElementById("error_message");
-    
+var name = document.getElementById("name").value;
+var surname = document.getElementById("surname").value;
+var phone = document.getElementById("phone").value;
+var email = document.getElementById("email").value;
+var message = document.getElementById("message").value;
+var password = document.getElementById("password").value;
+var genders = document.getElementsByName('gender');
+var error_message = document.getElementById("error_message");
+
+function validate(){ 
     error_message.style.padding = "10px";
-
     badWordFilter(message);
-
     var text;
     if(name==""){
       text = "Please Enter Valid Name";
@@ -57,14 +55,6 @@ function validate(){
 }
 
 function sweetAlertClick(){
-  var name = document.getElementById("name").value;
-  var surname = document.getElementById("surname").value;
-  var phone = document.getElementById("phone").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
-  var password = document.getElementById("password").value;
-  var genders = document.getElementsByName('gender');
-
   if(name!='' && surname!='' && phone!='' && email!='' && message!='' && password!='' && genders.length != 0)
   {
     Swal.fire({

@@ -8,3 +8,4 @@ This repository includes my Argenova internship tasks.
 * [Task 6](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%206): Form Validation
 * [Task 7](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%207): Sweet Alert
 * [Task 8](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%208): Regex (Bad Word Filter)
+* [Task 9](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%209): JQuery & Dropdown
