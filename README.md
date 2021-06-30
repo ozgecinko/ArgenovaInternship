@@ -12,3 +12,4 @@ This repository includes my Argenova internship tasks.
 * [Task 10](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2010): Convert HTML to PHP
 * [Task 11](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2011): Database Connection (MySQL)
 * [Task 12](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2012): Login Process
+* [Task 13](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2013): CRUD Operations for Users
