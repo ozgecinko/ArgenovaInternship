@@ -24,7 +24,7 @@
                     <div class="logo">
                         <img src="img/logo.PNG" alt="logo">
                     </div>
-                </div>
+                    </div>
                     <div class="col-lg-10 text-right">
                         <div class="topbar-contact">
                             <ul class="contact-list">
@@ -70,16 +70,16 @@
                             <a class="nav-link" href="#">Pages</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="blog.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Blog
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="blog.html">Blog</a>
-                              <a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                              <a class="dropdown-item" href="blog.php">Blog</a>
+                              <a class="dropdown-item" href="blog-details.php">Blog Details</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
