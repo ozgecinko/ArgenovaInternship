@@ -14,3 +14,4 @@ This repository includes my Argenova internship tasks.
 * [Task 12](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2012): Login Process
 * [Task 13](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2013): CRUD Operations for Users
 * [Task 14](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2014): Dynamic Blog Post
+* [Task 15](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2015): Dynamic Blog Details
