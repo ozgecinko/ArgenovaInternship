@@ -42,7 +42,7 @@ if (!empty($_POST)) {
 
         <label for="content">Content</label>
         <input type="text" name="content" placeholder="Content" id="content">
-        
+
         <input type="submit" value="Create">
     </form>
     <?php if ($msg): ?>
@@ -50,4 +50,10 @@ if (!empty($_POST)) {
     <?php endif; ?>
 </div>
 
+
 <?=template_footer()?>
+
+<script src="ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('content');
+</script>
