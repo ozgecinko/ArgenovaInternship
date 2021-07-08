@@ -18,3 +18,4 @@ This repository includes my Argenova internship tasks.
 * [Task 16](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2016): Dynamic Comment System
 * [Task 17](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2017): Dynamic Comment System Edits
 * [Task 18](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2018): SEO friendly Blog
+* [Task 19](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2019): Layout Edits
