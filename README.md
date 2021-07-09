@@ -19,5 +19,8 @@ This repository includes my Argenova internship tasks.
 * [Task 17](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2017): Dynamic Comment System Edits
 * [Task 18](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2018): SEO friendly Blog
 * [Task 19](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2019): Layout Edits
-* [Task 20](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2019): Last Edits
+* [Task 20](https://github.com/ozgecinko/ArgenovaInternship/tree/master/Task%2020): Last Edits
 
+
+During my Argenova internship, I cloned a website and made it dynamic by using HTML, CSS, JavaScript, PHP, SEO technologies of web software development.
+![BraintechUI](https://user-images.githubusercontent.com/58422765/125093531-0ddd5200-e0db-11eb-91fb-7d49dbe52709.gif)
