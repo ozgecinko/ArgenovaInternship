@@ -23,4 +23,5 @@ This repository includes my Argenova internship tasks.
 
 
 During my Argenova internship, I cloned a website and made it dynamic by using HTML, CSS, JavaScript, PHP, SEO technologies of web software development.
+
 ![BraintechUI](https://user-images.githubusercontent.com/58422765/125093531-0ddd5200-e0db-11eb-91fb-7d49dbe52709.gif)
